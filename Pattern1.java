@@ -6,7 +6,7 @@
 
 
 import java.io.*;
-public class solution{
+public class pattern1{
     public void pattern(int n)
     {
         for(int i=0;i<n;i++)
@@ -18,7 +18,7 @@ public class solution{
         }
     }
     public static void main(String[]args){
-        solution s=new solution();
+        pattern1 s=new pattern1();
         int n=5;
         s.pattern(n);
 
